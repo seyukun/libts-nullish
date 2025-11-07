@@ -1,17 +1,21 @@
 {
-  "name": "@lib/nullish",
+  "name": "@libts/nullish",
   "version": "1.0.0",
   "description": "summarize into null",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
+  "dependencies": {
+    "typescript": "^5.9.3",
+    "undici-types": "^7.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0"
+  },
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "seyukun",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/node": "^24.10.0",
-    "typescript": "^5.9.3"
-  }
+  "license": "MIT"
 }
